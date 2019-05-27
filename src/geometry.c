@@ -6,6 +6,12 @@ int main() {
   scanf("%f %f", &r1, &r2);
   printf("Координаты x1 y1 x2 y2: \n");
   scanf("%f %f %f %f", &x1, &y1, &x2, &y2);
+  s1 = 3.14 * r1 * r1;
+  s2 = 3.14 * r2 * r2;
+  p1 = 2 * 3.14 * r1;
+  p2 = 2 * 3.14 * r2;
+  ras1 = r1 + r2;
+  ras2 = sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
 
   return 0;
 }
