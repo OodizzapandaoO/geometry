@@ -12,6 +12,11 @@ int main() {
   p2 = 2 * 3.14 * r2;
   ras1 = r1 + r2;
   ras2 = sqrt(((x2 - x1) * (x2 - x1)) + ((y2 - y1) * (y2 - y1)));
+  if (ras1 > ras2) {
+    printf("s1=%f, s2=%f, p1=%f, p2=%f, пересекаются\n", s1, s2, p1, p2);
+  } else {
+    printf("s1=%f, s2=%f, p1=%f, p2=%f, не пересекаются\n", s1, s2, p1, p2);
+  }
 
   return 0;
 }
