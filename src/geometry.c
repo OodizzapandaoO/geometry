@@ -20,9 +20,3 @@ int main() {
 
   return 0;
 }
-<<<<<<< HEAD
-master
-=======
-
-branch1 branch 2
->>>>>>> branch1
